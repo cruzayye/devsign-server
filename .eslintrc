@@ -3,19 +3,13 @@
     "ecmaVersion": 9,
     "sourceType": "module"
   },
-  "parser": "babel-eslint",
   "env": {
     "es6": true,
-    "browser": true,
+    "node": true,
     "jest": true
   },
-  "plugins": [
-    "babel",
-    "react"
-  ],
   "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
+    "eslint:recommended"
   ],
   "rules": {
     "no-console": "warn",
@@ -78,8 +72,6 @@
         }
       }
     ],
-    "array-bracket-spacing": "error",
-    "babel/no-invalid-this": 1,
-    "babel/semi": 0
+    "array-bracket-spacing": "error"
   }
 }
